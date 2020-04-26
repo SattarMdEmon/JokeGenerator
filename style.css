@@ -1,0 +1,93 @@
+/* main styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+body,
+html {
+  background-color: #1a1b1e;
+  color: #ffffff;
+  line-height: 1.6rem;
+}
+
+h1 {
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+/* Utility Classes */
+
+.card {
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 400px;
+  background-color: #1a1b1e;
+  box-shadow: -10px -10px 20px #242529, 10px 10px 20px rgb(0, 0, 0),
+    10px 10px 20px #151518;
+  border-radius: 10px;
+}
+
+.card-extended {
+  width: 700px;
+}
+
+/* input */
+
+#input {
+  display: flex;
+  flex-direction: column;
+}
+
+#input h2,
+input {
+  margin: 0.5rem 0;
+}
+
+#input input {
+  height: 30px;
+}
+
+#input input[type="submit"] {
+  background-color: #1a1b1e;
+  box-shadow: -3px -3px 10px #242529, 3px 3px 3px rgb(0, 0, 0),
+    3px 3px 3px #151518;
+  font-size: 1.2rem;
+  border: none;
+  color: #ffffff;
+  border-radius: 7px;
+  transition: transform 0.2s ease-in-out;
+}
+
+#input input[type="submit"]:hover {
+  transform: rotate(-1deg);
+}
+
+#input input[type="submit"]:active {
+  transform: rotate(-4deg);
+}
+
+#input input[type="text"] {
+  border-radius: 7px;
+  border: none;
+  box-shadow: -3px -3px 10px #242529, 3px 3px 3px rgb(0, 0, 0),
+    3px 3px 3px #151518;
+}
+
+#input input[type="text"]:hover {
+  transform: rotate(1deg);
+}
+
+.joke {
+  padding: 1rem 0;
+}
