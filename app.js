@@ -9,7 +9,7 @@ const lastName = document.querySelector("#last-name");
 // function
 function generate(e) {
   // http request
-  const xhr = new XMLHttpRequest();
+  const xhr = new XMLHttpsRequest();
 
   xhr.open("GET", `http://api.icndb.com/jokes/random`, true);
 
